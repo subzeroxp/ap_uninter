@@ -1,0 +1,18 @@
+ /*Usando a linguagem de programação C/C++ escreva um programa que contenha uma função que retorna o seguinte: A função recebe 3 valores float e retorna o quadrado do 1º mais a soma dos outros dois. Observe que esta função deverá retornar um tipo float. O seu programa deverá ter esta função, permitir a digitação dos números, e imprimir tanto os números digitados quanto o resultado da função. */
+
+#include <stdlib.h>
+#include <stdio.h>
+float x,y,z;
+
+int main(){
+	printf("Digite o 1 numero:");
+	scanf ("%f",&x);
+	printf ("Digite o 2 numero:");
+	scanf ("%f",&y);
+	printf("Digite o 3 numero:");
+	scanf ("%f",&z);
+	printf ("\nOs numeros digitados são: %f ,%f ,%f\n",x,y,z);
+	printf ("O quadro do 1 e:%f\n",x*x);
+	printf("A soma do 2 e 3 e: %f\n",y+z);	
+	system ("Pause");
+}
